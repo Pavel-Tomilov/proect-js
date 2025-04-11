@@ -1,6 +1,10 @@
+import checkNumInput from "./checkNumInput";
+
 const forms = () => {
     const form = document.querySelectorAll('form');
     const input = document.querySelectorAll('input');
+
+ checkNumInput('input[name="user_phone"]')
 
     const message = {
         loading: 'Загрузка...',
